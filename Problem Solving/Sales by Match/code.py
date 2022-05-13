@@ -6,8 +6,8 @@ def sockMerchant(n, ar):
             d1[i] = d1[i] + 1
         else:
             d1[i] = 1
-    l2 = list(d1.values())
+     
     pair = 0
-    for j in l2:
+    for j in list(d1.values()):
         pair = pair + j//2
     return pair
